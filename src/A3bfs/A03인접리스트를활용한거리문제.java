@@ -37,7 +37,7 @@ public class A03인접리스트를활용한거리문제 {
 
         bfs(A);
 
-        // 결과 출력
+        // 결과
         if (visited[B]) {
             System.out.println(dist[B]);
         } else {

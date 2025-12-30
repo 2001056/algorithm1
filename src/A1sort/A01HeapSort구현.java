@@ -33,7 +33,7 @@ public class A01HeapSort구현 {
 //        int[] arr = {7, 6, 5, 8, 3, 5, 9, 1, 6};
         System.out.println(pq);
         System.out.println(pq.poll()); // poll의 복잡도 log(n)
-        pq.add(2); // add의 복잡도 log(n)
+        pq.add(2); // add의 복잡도 = log(n)
         System.out.println(pq);
 //        for (int a : arr){
 //            pq.add(a);

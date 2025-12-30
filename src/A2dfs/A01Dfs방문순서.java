@@ -9,7 +9,7 @@ public class A01Dfs방문순서 {
     static List<List<Integer>> adjList;
     static boolean[] visited;
     public static void main(String[] args) {
-//        출발은 0부터 시작헀을때 dfs로 방문할경우 방문순서
+//        출발 0부터 시작헀을때 dfs로 방문할경우 방문순서
         int[][] nodes = {{0, 1}, {2, 0}, {1, 3}, {2, 3}, {2, 4}};
         visited = new boolean[5];
         for (int i = 0; i < 5; i++) {

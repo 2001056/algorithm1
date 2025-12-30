@@ -31,7 +31,7 @@ public class A01Bfs방문순서 {
             for (int a : adjList.get(temp)){
                 if (visited[a])continue;
                 myQue.add(a);
-//                bfs에서 visited는 queue에 add하는 시점에 true 세팅해야 함
+//                bfs에서 visited는 queue에 add하는 시점에 true 세팅해야 한다
                 visited[a] = true;
             }
         }

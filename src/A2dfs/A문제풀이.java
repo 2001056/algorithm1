@@ -25,7 +25,6 @@ public class A문제풀이 {
         }
         visited = new boolean[N+1];
 
-//        정점 번호가 작은 것부터 방문하기 위한 정렬작업
         for (int i = 1; i <= N; i++) {
             Collections.sort(adjList.get(i));
         }

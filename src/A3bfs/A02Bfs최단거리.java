@@ -24,7 +24,7 @@ public class A02Bfs최단거리 {
             l.sort(Comparator.naturalOrder());
         }
         Queue<int[]> myQue = new LinkedList<>();
-        myQue.add(new int[]{0,0}); //int배열안에는 {노드번호,거리}
+        myQue.add(new int[]{0,0}); //int배열안은 {노드번호,거리}
         visited[0] = true;
         int answer = -1;
         loop1:
