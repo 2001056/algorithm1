@@ -4,7 +4,7 @@ import java.util.*;
 
 public class A02힙정렬문제풀이 {
     public static void main(String[] args) {
-//    명예의 전당 : 프로그래머
+//    명예의 전당 : 프로그래머스
         Scanner sc = new Scanner(System.in);
 //        int K = Integer.parseInt(sc.nextLine());
 //        int[] score = {10, 100, 20, 150, 1, 100, 200}; // 명예의 전당 : 프로그래머스
